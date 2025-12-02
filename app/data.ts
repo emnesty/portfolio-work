@@ -86,18 +86,18 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 export const CASES: Case[] = [
   {
     title: {
-      'en-US': 'FinTech App - Design System & UI/UX',
-      'pt-BR': 'App FinTech - Sistema de Design & UI/UX',
+      'en-US': 'Web System Menu Restructuring',
+      'pt-BR': 'Reestruturação de Menu em Sistema Web',
     },
     description: {
       'en-US':
-        'Creating a comprehensive design system for a modern financial app',
+        'Improving user experience in a complex system with 170+ pages',
       'pt-BR':
-        'Criação de um sistema de design completo para um app financeiro moderno',
+        'Melhorando a experiência do usuário em um sistema complexo com mais de 170 páginas',
     },
     link: {
-      'en-US': '/en-US/cases/fintech-design-system',
-      'pt-BR': '/pt-BR/cases/sistema-design-fintech',
+      'en-US': '/en-US/cases/menu-restructuring',
+      'pt-BR': '/pt-BR/cases/reestruturacao-menu',
     },
     uid: 'case-1',
   },
@@ -106,20 +106,16 @@ export const CASES: Case[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
-  },
-  {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://github.com/emnesty',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/in/lucianoclecio/',
   },
   {
     label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.instagram.com/luux.design',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'legostr@gmail.com'

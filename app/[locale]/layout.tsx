@@ -30,6 +30,8 @@ export default async function LocaleLayout({
         <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-20">
           <Header />
           {children}
+        </div>
+        <div className="relative mx-auto w-full max-w-screen-sm px-4 pb-8">
           <Footer />
         </div>
       </div>
