@@ -1,0 +1,28 @@
+{
+  "header": {
+    "name": "Luciano Silva",
+    "title": "Product Designer"
+  },
+  "home": {
+    "intro": "Focused on creating intuitive and performant web experiences. Bridging the gap between design and development.",
+    "selectedProjects": "Selected Projects",
+    "workExperience": "Work Experience",
+    "cases": "Cases",
+    "connect": "Connect",
+    "contactText": "Feel free to contact me at"
+  },
+  "footer": {
+    "currentLanguage": "English",
+    "switchTo": "Português",
+    "builtWith": "Built with Motion-Primitives"
+  },
+  "cases": {
+    "readMore": "Read case study",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "results": "Results",
+    "role": "Role",
+    "timeline": "Timeline",
+    "technologies": "Technologies"
+  }
+}

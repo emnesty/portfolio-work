@@ -1,0 +1,28 @@
+{
+  "header": {
+    "name": "Luciano Silva",
+    "title": "Product Designer"
+  },
+  "home": {
+    "intro": "Focado em criar experiências web intuitivas e performáticas. Conectando design e desenvolvimento.",
+    "selectedProjects": "Projetos Selecionados",
+    "workExperience": "Experiência Profissional",
+    "cases": "Cases",
+    "connect": "Conecte-se",
+    "contactText": "Sinta-se à vontade para me contatar em"
+  },
+  "footer": {
+    "currentLanguage": "Português",
+    "switchTo": "English",
+    "builtWith": "Construído com Motion-Primitives"
+  },
+  "cases": {
+    "readMore": "Ler estudo de caso",
+    "challenge": "Desafio",
+    "solution": "Solução",
+    "results": "Resultados",
+    "role": "Papel",
+    "timeline": "Linha do Tempo",
+    "technologies": "Tecnologias"
+  }
+}
