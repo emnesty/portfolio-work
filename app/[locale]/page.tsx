@@ -204,6 +204,21 @@ export default function Personal() {
             </div>
           ))}
         </div>
+        <p className="mt-6 text-center text-zinc-600 dark:text-zinc-400">
+          {t('moreProjects')}{' '}
+          <a
+            href="#connect"
+            onClick={(e) => {
+              e.preventDefault()
+              document
+                .getElementById('connect')
+                ?.scrollIntoView({ behavior: 'smooth' })
+            }}
+            className="font-bold underline text-zinc-900 dark:text-zinc-50 hover:text-zinc-600 dark:hover:text-zinc-300 transition-colors"
+          >
+            {t('contact')}
+          </a>
+        </p>
       </motion.section>
 
       <motion.section
@@ -289,6 +304,7 @@ export default function Personal() {
       </motion.section>
 
       <motion.section
+        id="connect"
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
