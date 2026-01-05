@@ -22,6 +22,7 @@ export function Header() {
             alt={t('name')}
             width={64}
             height={64}
+            className="rounded-full"
           />
         </motion.div>
         <div>

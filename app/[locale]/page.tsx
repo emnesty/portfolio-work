@@ -21,6 +21,12 @@ import {
 } from '../data'
 import { useTranslations, useLocale } from 'next-intl'
 import type { Locale } from '@/lib/routing'
+import dynamic from 'next/dynamic'
+
+const LocationMap = dynamic(
+  () => import('@/components/location-map').then((mod) => mod.LocationMap),
+  { ssr: false }
+)
 
 const VARIANTS_CONTAINER = {
   hidden: { opacity: 0 },
@@ -272,6 +278,14 @@ export default function Personal() {
             ))}
           </AnimatedBackground>
         </div>
+      </motion.section>
+
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <h3 className="mb-5 text-lg font-medium">{t('location')}</h3>
+        <LocationMap />
       </motion.section>
 
       <motion.section
