@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   },
   description:
     'Thats my Product Design portfolio based on the free templated provide by Nim',
+  manifest: '/manifest.json',
+  icons: {
+    icon: '/icon.png',
+    apple: '/apple-icon.png',
+  },
 }
 
 const geist = Geist({
