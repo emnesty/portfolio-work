@@ -18,7 +18,7 @@ export function Header() {
           transition={{ duration: 0.5, ease: 'easeOut' }}
         >
           <Image
-            src="/avatar.png"
+            src="/avatar.jpeg"
             alt={t('name')}
             width={64}
             height={64}
