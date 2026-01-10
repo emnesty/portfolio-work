@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from 'next-themes'
 import { StructuredData } from '@/components/structured-data'
+import { Analytics } from '@vercel/analytics/react'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -84,7 +85,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code',
+    google: 'YLqeSMb5KA0Uxw1UXbKYCWl8-YZq9e8liKk',
   },
 }
 
@@ -119,6 +120,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
